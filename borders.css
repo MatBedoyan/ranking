@@ -1,0 +1,9 @@
+.module {
+    border: 2px solid #f00;
+}
+.positions {
+    border: 2px solid #ff0;
+}
+.position {
+    border: 2px solid #00f;
+}

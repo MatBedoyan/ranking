@@ -1,0 +1,78 @@
+PASO 1: Creación de lo esencial.
+
+=================================================
+HTML
+-------------------------------------------------
+
+- Se creó un módulo div con submódulos para las posiciones y un formulario con inputs para el nombre y las vueltas
+
+- Se creó un botón para "Iniciar" el programa, aún sin funcionalidad.
+
+=================================================
+CSS
+-------------------------------------------------
+
+- Se colocaron las reglas y propiedades (estilos) básicas de casi toda hoja de estilos que hago.
+
+- Se crearon variables de colores para el ranking.
+
+- Se colocaron estilos acordes al módulo y submódulos para simular la apariencia de un ranking.
+
+- Se colocaron clases específicas modificadoras para el podio simulando colores de medallas olímpicas.
+
+- Se adjuntó un archivo especial auxiliar para dar estilo a los bordes de cada objeto para reconocer más fácilmente a la vista los tamaños de cada objeto.
+
+=================================================
+JS
+-------------------------------------------------
+
+- Se crearon las instancias iniciales de una BDD indexada en la que irán los pilotos, y dentro de creó el almacén de objetos "nombres", con un autoincremento para que cada introducción obtenga una key distinta.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
