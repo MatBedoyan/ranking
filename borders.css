@@ -1,7 +1,7 @@
 .module {
     outline: 2px solid #000;
 }
-.item {
+.module__item {
     outline: 2px solid #ddd;
 }
 .position {

@@ -27,14 +27,16 @@ body {
     padding: 1rem;
     background: var(--grey);
 }
-.item {
-    display: flex;
+.module__item {
     min-height: 3rem;
     margin: .6rem;
     padding: .5rem;
     font-weight: 600;
     background: var(--dark-col);
     color: var(--white);
+}
+.item__position {
+    display: flex;
 }
 .position {
     margin-left: .5rem;
@@ -48,7 +50,7 @@ body {
     padding: .1rem .5rem;
 }
 .alias, .laps {
-    position: absolute;
+    position: absolute; /* posicionar luego los alias y laps */
 }
 .alias {
     left: 9rem;

@@ -1,0 +1,74 @@
+PASO 4: Optimización de funciones
+
+=================================================
+HTML
+-------------------------------------------------
+
+- Se agregó un botón para "Añadir" piloto, su funcionalidad está en proceso.
+
+- Se agregó un botón para "Eliminar" piloto, falta su funcionalidad.
+
+- Se eliminaron las plantillas de las estructuras HTML para generarlas dinámicamente con JS.
+
+=================================================
+CSS
+-------------------------------------------------
+
+- Se ajustaron cosméticamente los estilos.
+
+=================================================
+JS
+-------------------------------------------------
+
+- Se modificó la función para crear bloques HTML y la estructura que crea, con más elementos anidados.
+
+- Se agregó la funcionalidad del botón "Añadir" con las validaciones de datos correspondientes y generando los objetos {} adecuados dinámicamente.
+
+- Se agregó una función para procesar los datos y mostrarlos luego de ello en la tabla.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
