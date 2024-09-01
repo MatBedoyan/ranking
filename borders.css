@@ -1,9 +1,18 @@
 .module {
-    border: 2px solid #f00;
+    outline: 2px solid #000;
 }
-.positions {
-    border: 2px solid #ff0;
+.item {
+    outline: 2px solid #ddd;
 }
 .position {
-    border: 2px solid #00f;
+    outline: 2px solid #07f;
+}
+.pilot-data {
+    outline: 2px solid #ff0;
+}
+.alias {
+    outline: 2px solid #f00;
+}
+.laps {
+    outline: 2px solid #0f0;
 }
