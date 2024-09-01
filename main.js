@@ -79,13 +79,13 @@ const renderTable = pilots =>{
     // Guardar en un array
     document.querySelector(".module").innerHTML = "";
     // ordenar por cantidad de vueltas de mayor a menor y tomar los primeros 10 del array
-    pilots = pilots.sort((a,b)=>{return b.laps - a.laps}).slice(0,10);
+    // pilots = pilots.sort((a,b)=>{return b.laps - a.laps}).slice(0,10);
     // Arriba estoy reemplazando esto: 
-    // pilots = pilots.sort((a,b)=>{
-    //     return b.laps - a.laps;
-    // });
-    // // tomar los primeros 10 del array
-    // pilots = pilots.slice(0,10);
+    pilots = pilots.sort((a,b)=>{
+        return b.laps - a.laps;
+    });
+    // tomar los primeros 10 del array
+    pilots = pilots.slice(0,10);
     // ejecutar el for con cada fila y pintarla en pantalla.
     pilots.forEach((pilot,index)=>{
         pilot.position = index + 1; // +1 porque empieza en 0.
@@ -97,7 +97,7 @@ const renderTable = pilots =>{
 
 // ****** Declaración de la función para el botón "Agregar" piloto: ******
 
-document.querySelector(".add").addEventListener("click",event=>{
+document.querySelector(".add").addEventListener("click",()=>{
     const alias = document.querySelector(".input-alias").value; // El valor que tenga el elemento "input-alias" se asigna a la variable "alias".
     const laps = parseInt(document.querySelector(".input-laps").value); // El valor que tenga el elemento "input-laps" se asigna a la variable "laps".
     if (alias.length > 0 &&
